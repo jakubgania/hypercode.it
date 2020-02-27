@@ -1,0 +1,20 @@
+ .title-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .title {
+    font-family: 'Montserrat';
+    font-size: 80px;
+ }
+ .container {
+
+ }
+ .hyper {
+
+ }
+ .code {
+     margin-left: -22px;
+ }
