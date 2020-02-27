@@ -8,6 +8,7 @@
  .title {
     font-family: 'Montserrat';
     font-size: 80px;
+    letter-spacing: 8px;
  }
  .container {
 
@@ -16,5 +17,5 @@
 
  }
  .code {
-     margin-left: -22px;
+     margin-left: -30px;
  }
