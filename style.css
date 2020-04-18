@@ -1,22 +1,19 @@
 .title-wrapper {
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
 }
 .title {
   font-family: 'Montserrat';
-  font-size: 80px;
-  letter-spacing: 8px;
+  font-size: 24px;
+  letter-spacing: 4px;
 }
 /* .container {} */
 /* .hypercode {} */
+.content {
+  background-color: aliceblue;
+}
 
 @media only screen and (max-width: 700px) {
   .title {
-    font-size: 8vw;
+    /* font-size: 8vw; */
   }
 }
