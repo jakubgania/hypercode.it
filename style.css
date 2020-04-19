@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: local('RobotoMono Medium'),
+    url(/roboto_mono/RobotoMono-Medium.ttf) format('truetype');
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+}
 .title-wrapper {
   margin: 0;
 }
@@ -37,6 +47,11 @@ ul {
 
 a {
   text-decoration: none;
+  /* word-break: break-all; */
+  color: #0066ff;
+}
+a:hover {
+  color: #ff9933;
 }
 
 .changelog {
