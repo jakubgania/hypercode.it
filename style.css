@@ -32,7 +32,7 @@ body {
   /* background-color: aliceblue; */
 }
 .content-subsection > div {
-  width: 220px;
+  width: 240px;
   margin-right: 10px;
   /* background-color: azure; */
 }
@@ -43,6 +43,10 @@ body {
 
 ul {
   padding-left: 16px;
+}
+
+li {
+  line-height: 2;
 }
 
 a {
