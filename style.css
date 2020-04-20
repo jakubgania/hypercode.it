@@ -8,6 +8,10 @@
 body {
   font-family: 'Roboto Mono', monospace;
 }
+h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
 .title-wrapper {
   margin: 0;
 }
