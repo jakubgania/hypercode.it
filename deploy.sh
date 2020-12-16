@@ -1,6 +1,7 @@
-npm run generate
+npm run build
 
-cd dist
+touch out/.nojekyll
+cd out
 
 echo "hypercode.it" > CNAME
 
