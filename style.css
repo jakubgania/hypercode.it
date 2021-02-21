@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RobotoMono Regular'),
+    url(/roboto_mono/RobotoMono-Regular.ttf) format('truetype');
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.title-wrapper {
+  margin: 0;
+}
+.title {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+/* .container {} */
+/* .hypercode {} */
+.description {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-subsection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  /* background-color: aliceblue; */
+}
+.content-subsection > div {
+  width: 240px;
+  margin-right: 10px;
+  /* background-color: azure; */
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+li {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  /* word-break: break-all; */
+  color: #0066ff;
+}
+a:hover {
+  color: #ff9933;
+}
+
+.changelog {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.changelog-post {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  /* .title {
+    font-size: 8vw;
+  } */
+}

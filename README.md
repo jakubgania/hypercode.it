@@ -1,3 +1,3 @@
 # hypercode.it
 
-The project is under development
+[hypercode.it](https://hypercode.it)
